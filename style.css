@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(250, 239, 246);
+}
+
+h1 {
+    color: crimson
+}
+
+img {
+    width: 35rem;
+}
+.inputbox {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding-top: 300px;
+}
+
+.character-info {
+    display: flex;
+    align-items: center; /* Alinha verticalmente os elementos */
+}
+
+.character-image-container {
+    flex: 0 0 auto; /* Define o tamanho do elemento da imagem para não crescer */
+    margin-right: 20px; /* Espaçamento entre a imagem e os detalhes */
+}
+
+.character-image {
+    width: 20rem;
+    height: auto;
+
+    border-radius: 5px;
+}
+
+.character-details {
+    flex: 1; /* Ocupa o espaço restante disponível na linha */
+}
